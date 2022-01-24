@@ -61,4 +61,33 @@ public class RecursionPractice {
 
 
     }
+    public static int factorial(int num) {
+        if (num<=1) {
+            return 1;
+        }
+        return num * factorial(num-1);
+    }
+    public static int recursiveRange(int num) {
+        if (num<=0) {
+            return 0;
+        }
+        return num + recursiveRange(num - 1);
+    }
+    public static String reverse(String str)
+    {
+        if (str.isEmpty())
+            return str;
+        //Calling Function Recursively
+        return reverse(str.substring(1)) + str.charAt(0);
+    }
+    public static Boolean isPalindrom(String str)
+    {
+        if (str.length()==0||str.length()==1)
+            return true;
+        //Calling Function Recursively
+        if(str.charAt(0)==str.charAt(str.length()-1))
+        return isPalindrom(str.substring(1,str.length()-1));
+
+        return false;
+    }
 }
