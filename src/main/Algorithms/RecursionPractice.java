@@ -1,4 +1,4 @@
-package Algorithms;
+package main.Algorithms;
 
 public class RecursionPractice {
     public static int fibonaci(int n){

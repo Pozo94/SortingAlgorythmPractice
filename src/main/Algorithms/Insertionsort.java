@@ -1,4 +1,4 @@
-package Algorithms;
+package main.Algorithms;
 
 public class Insertionsort {
     int[] array;

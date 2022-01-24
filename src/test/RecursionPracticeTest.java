@@ -1,5 +1,7 @@
-package Algorithms;
+package test;
 
+import main.Algorithms.RecursionPractice;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,7 +10,7 @@ class RecursionPracticeTest {
 
     @Test
     void fibonaci() {
-        assertEquals(832040,RecursionPractice.fibonaci(30));
+        Assertions.assertEquals(832040, RecursionPractice.fibonaci(30));
     }
 
     @Test

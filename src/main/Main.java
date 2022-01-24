@@ -1,4 +1,6 @@
-import Algorithms.RecursionPractice;
+package main;
+
+import main.Algorithms.*;
 
 import java.util.Random;
 
@@ -13,7 +15,7 @@ public class Main {
         for(int i=0;i<numbers.length;i++){
         numbers[i]=rand.nextInt(1000000);
         }
-        /*System.out.println("Czas sortowania 100.000 liczb z przedziału 0-1.000.000: ");
+        System.out.println("Czas sortowania 100.000 liczb z przedziału 0-1.000.000: ");
         Quicksort qsort=new Quicksort(numbers);
         startTime=System.nanoTime();
         qsort.quicksort();
@@ -43,21 +45,7 @@ public class Main {
 
         System.out.println("Bubblesort time: "+ result/1000000+"ms" );
 
-         */
-        int a=4;
-        int x=526;
-        int n=192;
-        String word="IKAJAK";
-        String word1="KAJAK";
-        System.out.println("Fibonacci result for " +a+": "+RecursionPractice.fibonaci(a));
-        System.out.println("Sum of digits result for " +n+": "+RecursionPractice.sumOfDigits(n));
-        System.out.println("Power for " +x+"^"+n+": "+RecursionPractice.powPositiveNumber(x,n));
-        System.out.println("GDC ("+x+","+n+") :"+ RecursionPractice.gcd(x,n));
-        System.out.println(x+" = "+RecursionPractice.decimalToBinary(x,""));
-        System.out.println(a+"! = "+ RecursionPractice.factorial(a));
-        System.out.println("Range(a) = " +RecursionPractice.recursiveRange(a));
-        System.out.println(word+" -> "+RecursionPractice.reverse(word));
-        System.out.println(RecursionPractice.isPalindrom(word1));
+
     }
 
 }

@@ -1,6 +1,10 @@
-package Algorithms;
+package test;
 
 
+import main.Algorithms.Bubblesort;
+import main.Algorithms.Insertionsort;
+import main.Algorithms.Mergesort;
+import main.Algorithms.Quicksort;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
